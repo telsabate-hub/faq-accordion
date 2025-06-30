@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  background-color: hsl(275, 100%, 97%);
+}
+
+p {
+  font-size: 1rem;
+}
+
+main {
+  margin: auto;
+  max-width: 39.0625rem;
+}
+
+section {
+  background: hsl(0, 100%, 100%);
+  padding: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+details {
+  color: hsl(292, 16%, 49%);
+}
+
+summary {
+  font-weight: 600;
+  color: black;
+}
+
+h1 {
+  display: inline-block;
+}

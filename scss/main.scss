@@ -1,0 +1,28 @@
+@import './config';
+
+main {
+    margin: auto;
+    max-width: 39.0625rem;
+}
+
+section {
+    background: $white;
+    padding: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+details {
+    color: $purple_600;
+}
+
+summary {
+    font-weight: 600;
+    color: black;
+}
+
+h1 {
+    display: inline-block;
+}
