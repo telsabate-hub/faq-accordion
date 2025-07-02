@@ -8,6 +8,9 @@ body {
   font-family: "Work Sans", sans-serif;
   font-weight: 400;
   background-color: hsl(275, 100%, 97%);
+  background-image: url("../assets/images/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 p {
@@ -21,14 +24,14 @@ main {
 
 section {
   background: hsl(0, 100%, 100%);
-  padding: 40px;
+  padding: 45px 40px 15px;
   border-radius: 1rem;
   margin: 175px 0;
 }
 
 ul {
   list-style: none;
-  margin-top: 12px;
+  margin-top: 8px;
 }
 
 li:not(:last-child) {
@@ -43,11 +46,26 @@ details {
   color: hsl(292, 16%, 49%);
 }
 
+details[open] .icon-minus {
+  display: flex;
+}
+
+details[open] .icon-plus {
+  display: none;
+}
+
 summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1.1875rem;
   font-weight: 600;
   color: hsl(292, 42%, 14%);
   list-style: none;
+}
+summary:hover {
+  color: #a52dda;
+  cursor: pointer;
 }
 
 h1 {
@@ -56,4 +74,13 @@ h1 {
   font-weight: 700;
   font-size: 3.5rem;
   color: hsl(292, 42%, 14%);
+}
+
+p {
+  padding-top: 29px;
+  line-height: 1.6;
+}
+
+.icon-minus {
+  display: none;
 }

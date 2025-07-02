@@ -7,14 +7,14 @@ main {
 
 section {
     background: $white;
-    padding: 40px;
+    padding: 45px 40px 15px;
     border-radius: 1rem;
     margin: 175px 0;
 }
 
 ul {
     list-style: none;
-    margin-top: 12px;
+    margin-top: 8px;
 
 }
 
@@ -30,11 +30,27 @@ details {
     color: $purple_600;
 }
 
+details[open] .icon-minus {
+    display: flex;
+}
+
+details[open] .icon-plus {
+    display: none;
+}
+
 summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 1.1875rem;
     font-weight: 600;
     color: $purple_950;
     list-style: none;
+
+    &:hover {
+        color: $hover_color;
+        cursor: pointer;
+    }
 }
 
 h1 {
@@ -43,4 +59,13 @@ h1 {
     font-weight: 700;
     font-size: 3.5rem;
     color: $purple_950;
+}
+
+p {
+    padding-top: 29px;
+    line-height: 1.6;
+}
+
+.icon-minus {
+    display: none;
 }
