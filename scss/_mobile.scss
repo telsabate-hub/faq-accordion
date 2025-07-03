@@ -1,0 +1,46 @@
+@media screen and (max-width: 44.5rem){
+    body {
+        background-image: url("../assets/images/background-pattern-mobile.svg");
+    }
+
+    main {
+        max-width: 20.3125rem;
+    }
+
+    section {
+        padding: 25px 25px 10px 25px;
+        margin: 145px 0;
+    }
+
+    h1 {
+        font-size: 2.0625rem;
+        padding-left: 18px;
+    }
+
+    .icon-star {
+        width: 24px;
+    }
+
+    summary {
+        font-size: 1rem;
+        column-gap: 20px;
+
+        &:hover {
+            color: $purple_950;
+        }
+    }
+
+    p {
+        line-height: 1.5;
+        font-size: .875rem;
+        padding-top: 25px;
+    }
+
+    ul {
+        margin-top: 0px;
+    }
+
+    li {
+        padding: 20px 0;
+    }
+}
