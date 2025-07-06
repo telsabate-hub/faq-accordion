@@ -85,7 +85,7 @@ p {
   display: none;
 }
 
-@media screen and (max-width: 44.5rem) {
+@media screen and (max-width: 44.4375rem) {
   body {
     background-image: url("../assets/images/background-pattern-mobile.svg");
   }
